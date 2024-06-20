@@ -1,0 +1,3 @@
+lxml==4.8.0
+Pillow==10.3.0
+requests==2.27.1

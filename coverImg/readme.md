@@ -9,5 +9,7 @@ bmp图片转换输出为二进制的`bin`文件，其实就是把原本保存的
 
 生成一个`test.bin`文件，里面保存了图片的二进制数据。
 
+**coverImg绝对路径需要在java中配置**
+
 来源：[微雪官方bmp转数组工具](https://www.waveshare.net/wiki/5.65inch_e-Paper_Module_(F)_Manual#.E5.9B.BE.E7.89.87.E6.95.B0.E6.8D.AE.E8.BD.AC.E6.8D.A2) 
 
