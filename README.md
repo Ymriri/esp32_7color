@@ -18,6 +18,8 @@ esp32-5.65inch-7color-epaper，后台管理端+esp32端
 ### Web端
 
 主要由Java改编[mall-admin-web](https://github.com/macrozheng/mall-admin-web)项目（本来想用Go，发现还是java手搓快， 233），mall-admin-web需要配合sql使用，为了方便维护我直接购买的阿里云MySQL，数据直接即可导入。
+爬虫和图片合成以及图片转换使用python实现，详细见仓库的`python`部分。
+
 Web可以进行的操作如下：
 
 1. **设置esp32连接WIFI和password**
