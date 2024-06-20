@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.macro.mall.tiny.modules.epaper.mapper.EpaperUserSettingMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.macro.mall.tiny.modules.epaper.model.EpaperUserSetting">
+        <id column="epaper_uid" property="epaperUid" />
+        <result column="wifi_ssid" property="wifiSsid" />
+        <result column="wifi_password" property="wifiPassword" />
+        <result column="ums_user_id" property="umsUserId" />
+        <result column="urban" property="urban" />
+        <result column="update_time" property="updateTime" />
+        <result column="deletee" property="deletee" />
+    </resultMap>
+
+</mapper>
