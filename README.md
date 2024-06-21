@@ -1,6 +1,9 @@
 # esp32_7color
 感谢[少数派凉糕的创意](https://sspai.com/post/82704), 本来打算能跑就行，然后断断续续填坑，在实现凉糕的创意的基础上添加通用的web管理。
+
 效果图
+
+![img.png](img/IMG_5696.jpeg)
 
 esp32-5.65inch-7color-epaper，后台管理端+esp32端
 设备需要：
