@@ -463,6 +463,7 @@ void cleanData()
 void setup()
 {
     Serial.begin(115200);
+    printf("init free_heap_size = %d\n", esp_get_free_heap_size());
     initConfig();
     // first update
     http_heartbeat();
@@ -476,7 +477,9 @@ void setup()
         isUpdate = false;
         isSHOW = false;
     }
+    printf("after setup free_heap_size = %d\n", esp_get_free_heap_size());
 }
+
 /* The main loop -------------------------------------------------------------*/
 void loop()
 {
@@ -500,6 +503,7 @@ void loop()
         isUpdate = false;
         isSHOW = false;
     }
+    printf("after loop free_heap_size = %d\n", esp_get_free_heap_size());
     // 30 seconds to check the update
-    delay(30000);
+    delay(10000);
 }

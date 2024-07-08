@@ -1,0 +1,117 @@
+<mxfile host="Electron" modified="2024-07-08T14:44:05.298Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.1 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="ApWHwNnQMQn_CCNfDiSB" version="24.6.1" type="device">
+  <diagram name="第 1 页" id="mSKc-PtsnWqzbE8asxDL">
+    <mxGraphModel dx="1384" dy="694" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JBe6MskC9aGJooVToFBo-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-2" target="JBe6MskC9aGJooVToFBo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-2" value="上电" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="103" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-6" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-3" target="JBe6MskC9aGJooVToFBo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-3" value="连接预设的WIFI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="258" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-5" target="JBe6MskC9aGJooVToFBo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-5" value="请求服务器，获得服务器设置的WIFI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="438" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-7" target="JBe6MskC9aGJooVToFBo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-7" value="请求Magic Number" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="727" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-9" target="JBe6MskC9aGJooVToFBo-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248" y="882.5333333333333" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="884" />
+              <mxPoint x="-50" y="1636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-33" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="JBe6MskC9aGJooVToFBo-12">
+          <mxGeometry x="-0.2758" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-9" target="JBe6MskC9aGJooVToFBo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-34" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="JBe6MskC9aGJooVToFBo-23">
+          <mxGeometry x="-0.0769" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-9" value="Update?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="844" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-14" target="JBe6MskC9aGJooVToFBo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-14" value="重新连接WIFI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="569" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="83" y="1224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-27" value="超时自动退出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="JBe6MskC9aGJooVToFBo-25">
+          <mxGeometry x="-0.0455" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-22" value="请求最新的图片" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="1054" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-26" target="JBe6MskC9aGJooVToFBo-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-26" value="更新彩色墨水屏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23" y="1226" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-28" target="JBe6MskC9aGJooVToFBo-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409" y="1181.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="313" y="1436" />
+              <mxPoint x="313" y="1069" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-31" value="重新请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="JBe6MskC9aGJooVToFBo-30">
+          <mxGeometry x="-0.044" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-32" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="JBe6MskC9aGJooVToFBo-30">
+          <mxGeometry x="-0.8459" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-36" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBe6MskC9aGJooVToFBo-28" target="JBe6MskC9aGJooVToFBo-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-37" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="JBe6MskC9aGJooVToFBo-36">
+          <mxGeometry x="-0.1692" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-28" value="异常？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="43" y="1396" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JBe6MskC9aGJooVToFBo-35" value="进入休眠" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="1606" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
