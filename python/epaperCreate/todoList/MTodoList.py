@@ -18,7 +18,8 @@ class MTDL(object):
 
     def __init__(self):
         self.token = None
-        self.urlName = "my@13j0kr.onmicrosoft.com"
+        #
+        self.urlName = "xxxx@one.onmicrosoft.com"
 
 
     def get_all_task(self):
@@ -55,8 +56,6 @@ class MTDL(object):
         :param task_id:
         :return:
         """
-        # self.token = "EwB4A8l6BAAUbDba3x2OMJElkF7gJ4z/VbCPEz0AAVrREkcL7BNn0VraZ4lm8qCeDJ/Gk5dtRX0o6evFaNyoFxF4n/9juDnhC5XeHlZp9CkGU6Cq4QTa9/8SxM+ERnZoKXUWrDDGgiTHUUcSr87sE3qsdKV4tfdtqNh639XG0jRXz30WNcAdk2vTMKKK1KHj/AaoaPq1db75P8eJet4g1mtJ3dm8aa/kBPptWx67wVSSVlcwMMLbteKFpwZI5B7um6Buq8Un+mmgrOljEhN3srQyLN8Japo1N9N5Db/MSNSw1IfrP7zM0mM61jdNrnF3yiPXgXqo62I9T0XyvkTDvv6eHMEkobFw3BdWa4ae7f/gF3ntZrlM5CEP/ArxzCQQZgAAEH40KwXXogfloPH51pvJM/xAAt37S1k5Fnq56Y/qCYcDM9dUO9PUYQ1+MBKJoo8JD4zPOOMbDmWeH/HzlbCmy3u7QoKnnefOjXLngMmckcLp6iS/3m/lNOpBqgZJo8rrmc9PydHHNOzRtfHqneMdQBlM4DZu863lhhVb3DaooOpgJYTNv5Q1m6n86m+Ke1G2ztepzOo75+sgdq/SmXdSTx7KEcRsxGY3ftrmFlLOex6Gz1vknUG04OlLPz/T56dSAz9FWuGORFArZ4omUjXp0/DGXIDme6+HDvAfVsHdk5ZuvyXiAHzq6pIdNuJcYrDhnblujPAOo0nOgIFEFgpohzt7c6BwsgsCtSnNfoOtrcE6PqqqGxe3YPzjb+oU19rx1pxF0jL3j5OJzNB/YpGbLoxIG6x0Pqf4Rs7jWRZtnW4XD14V750POExpkZvnrmweFRzFoe0iMkRAp0/CpEaU8YMQLv8VzY8Et/gFzVgvLt8JSS48WnWH8Z4eBTybo6fdfGrV2L8ojoJn1QmySh1biTsS+f9DeUyhMWpHZ83243eWu9YNWNg3TQ4NcfCA4Lj1sP8fVGcvBSQMZPa/dY7nOih4wmQiAq3CNCVKIKn8gZvsxty+UNLwOedV0U/D+Gz1x7WfnubQhzOKQ6CWc2Mq531ZbuEcf+KR2XksdCGDVb6hU1pJ8bWH+F5adBbJ/vu/nSsPmoTJX7olOzKl2vCgES78rT32PyQmIbMUrBGJA/WGZC5s+OPQW4zEdGIXZAPEdak0cdmKXVw/0l8HFlUrcHYIZHQC"
-
         url = "https://graph.microsoft.com/v1.0/users/" + self.urlName + "/todo/lists/" + task_id + "/tasks"
         headers = {
             "Authorization": self.token
