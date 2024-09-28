@@ -23,5 +23,7 @@
 hs_err_pid*
 replay_pid*
 
+./.idea
+
 /coverImg/coverImg
 /python/epaperCreate/todoList/config.cfg
