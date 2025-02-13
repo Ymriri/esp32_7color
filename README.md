@@ -116,7 +116,8 @@ ESP32端系统流程图如下
 
 ![IMG_5704](./img/IMG_5704.jpeg)
 
-
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/Ymriri/esp32_7color.svg?variant=adaptive)](https://starchart.cc/Ymriri/esp32_7color)
 
 #### ESP32 参考资料
 
